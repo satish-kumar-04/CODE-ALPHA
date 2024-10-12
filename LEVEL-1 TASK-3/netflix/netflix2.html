@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="Netflix.png">
+    <style>
+        *{
+            margin: 0%;
+        }
+        img{
+            width: 200px;
+        }
+        .a{
+            
+            background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url(netflixback.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            margin: none;
+            border: none;
+            overflow-y: hidden;
+        }
+        .b{
+            text-align: center;
+        }
+        .c{
+            text-align: center;
+            color: white;
+        }
+        input{
+            padding: 15px 0;
+            padding-right: 80px;
+            padding-left: 5px;
+            background-color: black;
+            
+        }
+    
+        label{
+            text-align: left;
+            color: white;
+        }
+        a{
+            color: blue;
+        }
+        a:hover{
+            color: red;
+            transition: 0.1s;
+    
+        }
+        a:active{
+            color: blueviolet;
+            transition: 0.1s;
+        }
+        .A{
+            text-decoration: none;
+            padding-left: 55px;
+        }
+        .B{
+            padding-right: 50px;
+        }
+        p{
+            font-size: 15px;
+            
+        }
+        button{
+            color: white;
+            background-color: red;
+            border: none;
+            width: 260px;
+            border-radius: 5px;
+            padding: 15px 103px;
+            cursor: pointer;
+        }
+        button:hover{
+            opacity: 0.8;
+            transition: 0.1s;
+        }
+        button:active{
+            background-color: blue;
+            transition: 0.1s;
+        }
+        .z{
+            background-position: 0;
+            background-color: transparent;
+            background-size: cover;
+            outline: none;
+            align-items: center;
+            padding-top: 2%;
+            padding: 50px 500px;
+            display: flex;
+            flex-direction: column;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="a">
+        <img src="netflix1.png" alt="logo">
+        <div class="z">
+            <div class="b">
+                <h1>Sign In</h1>
+                <input type="email" placeholder="Email or Phone Number"><br><br>
+                <input type="password" placeholder="Password" ><br><br>
+                <button>Sign In</button><br>
+            
+                <input type="checkbox" name="remember me" id="check">
+                <label for="check">Remember me</label>
+                <a class="A" href="https://www.netflix.com/in/LoginHelp" target="_blank">Need help ?</a>
+                <br><br><br><br><br><br><br>
+            </div>
+            <div class="c">
+                <nav class="B"> 
+                    New to Netflix ?
+                    <a href="netflix.html">Sign up now</a>
+                </nav>
+                <p>This page is protected by Google reCAPTCHA to <br> ensure you're not a bot. Learn more.</p>
+            </div>
+        </div>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
+</html>
